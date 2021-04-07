@@ -19,7 +19,7 @@
     "ios": "8.0"
   },
   "ios": {
-    "vendored_frameworks": "ios/ComponentA_Category.framework"
+    "vendored_frameworks": "ComponentA_Category/ComponentA_Category.framework"
   },
   "dependency": "CTMediator"
 }
