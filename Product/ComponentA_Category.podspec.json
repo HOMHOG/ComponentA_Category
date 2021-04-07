@@ -12,7 +12,7 @@
   "homepage": "https://github.com/HOMHOG/ComponentA_Category",
   "description": "TODO: Add long description of the pod here.",
   "source": {
-    "http": "https://github.com/HOMHOG/ComponentA_Category/blob/master/Product/ComponentA_Category.zip",
+    "http": "https://github.com/HOMHOG/ComponentA_Category/blob/master/Product/ComponentA_Category.framework.zip",
     "type": "zip"
   },
   "platforms": {
