@@ -20,5 +20,6 @@
   },
   "ios": {
     "vendored_frameworks": "ios/ComponentA_Category.framework"
-  }
+  },
+  "dependency": "CTMediator"
 }
