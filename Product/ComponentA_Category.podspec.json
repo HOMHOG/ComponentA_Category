@@ -21,5 +21,11 @@
   "ios": {
     "vendored_frameworks": "ComponentA_Category/ComponentA_Category.framework"
   },
-  "dependency": "CTMediator"
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "dependencies": {
+    "CTMediator": [
+    ]
+  }
 }

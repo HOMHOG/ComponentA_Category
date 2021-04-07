@@ -12,7 +12,7 @@
 		00FB5793261C59DC0083051C /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FB578F261C59DC0083051C /* Test.h */; };
 		00FB5794261C59DC0083051C /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB5790261C59DC0083051C /* Test.m */; };
 		00FB5795261C59DC0083051C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB5791261C59DC0083051C /* ReplaceMe.m */; };
-		00FB57B0261C59F60083051C /* CTMediator+ComponentA.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FB57AE261C59F60083051C /* CTMediator+ComponentA.h */; };
+		00FB57B0261C59F60083051C /* CTMediator+ComponentA.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FB57AE261C59F60083051C /* CTMediator+ComponentA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00FB57B1261C59F60083051C /* CTMediator+ComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB57AF261C59F60083051C /* CTMediator+ComponentA.m */; };
 		034E4053905A0264BE132D9AA52D46FB /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CAD441423AA3FD34FD0183762579BF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		05BCAED08DADF67CC4711A102262D9AB /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E3A1C665699BA97D3061F092477702 /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
