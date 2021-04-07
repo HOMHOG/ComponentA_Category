@@ -1,6 +1,0 @@
-framework module ComponentA_Category {
-  umbrella header "ComponentA_Category-umbrella.h"
-
-  export *
-  module * { export * }
-}
