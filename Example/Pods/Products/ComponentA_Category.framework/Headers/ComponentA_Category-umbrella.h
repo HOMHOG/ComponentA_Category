@@ -11,7 +11,6 @@
 #endif
 
 #import "CTMediator+ComponentA.h"
-#import "Test.h"
 
 FOUNDATION_EXPORT double ComponentA_CategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char ComponentA_CategoryVersionString[];

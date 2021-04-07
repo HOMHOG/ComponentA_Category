@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		008A37B2A63BC1F3E33557FEF5BEE189 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB3B1CF1D8545BE6C1777D3BED40C4A /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B3EF135DE4634D6FA1E5EF15239824 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = F1896C4CF9B888167C6CE0A966946E0F /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00FB5793261C59DC0083051C /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FB578F261C59DC0083051C /* Test.h */; };
-		00FB5794261C59DC0083051C /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB5790261C59DC0083051C /* Test.m */; };
 		00FB5795261C59DC0083051C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB5791261C59DC0083051C /* ReplaceMe.m */; };
 		00FB57B0261C59F60083051C /* CTMediator+ComponentA.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FB57AE261C59F60083051C /* CTMediator+ComponentA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00FB57B1261C59F60083051C /* CTMediator+ComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB57AF261C59F60083051C /* CTMediator+ComponentA.m */; };
@@ -253,8 +251,6 @@
 /* Begin PBXFileReference section */
 		00153D111B6D4D6B4FD9AB3483B8FCF0 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		0039B19CD9B8F87ECF119F8396E2236B /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
-		00FB578F261C59DC0083051C /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		00FB5790261C59DC0083051C /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		00FB5791261C59DC0083051C /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		00FB57AE261C59F60083051C /* CTMediator+ComponentA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ComponentA.h"; sourceTree = "<group>"; };
 		00FB57AF261C59F60083051C /* CTMediator+ComponentA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ComponentA.m"; sourceTree = "<group>"; };
@@ -542,8 +538,6 @@
 		00FB578D261C59DC0083051C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				00FB578F261C59DC0083051C /* Test.h */,
-				00FB5790261C59DC0083051C /* Test.m */,
 				00FB5791261C59DC0083051C /* ReplaceMe.m */,
 				00FB57AE261C59F60083051C /* CTMediator+ComponentA.h */,
 				00FB57AF261C59F60083051C /* CTMediator+ComponentA.m */,
@@ -1061,7 +1055,6 @@
 			files = (
 				00FB57B0261C59F60083051C /* CTMediator+ComponentA.h in Headers */,
 				6B18FA9B33FC015DDD1B1BB2A57BA17F /* ComponentA_Category-umbrella.h in Headers */,
-				00FB5793261C59DC0083051C /* Test.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1367,7 +1360,6 @@
 			files = (
 				A5FF56ED549D627FFE4E94D9A67D301F /* ComponentA_Category-dummy.m in Sources */,
 				00FB57B1261C59F60083051C /* CTMediator+ComponentA.m in Sources */,
-				00FB5794261C59DC0083051C /* Test.m in Sources */,
 				00FB5795261C59DC0083051C /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

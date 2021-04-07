@@ -1,15 +1,15 @@
 //
-//  Test.h
+//  CTMediator+ComponentA.h
 //  ComponentA_Category
 //
 //  Created by 王俣2020 on 2021/4/6.
 //
 
-#import <Foundation/Foundation.h>
+#import <CTMediator/CTMediator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Test : NSObject
+@interface CTMediator (ComponentA)
 
 @end
 
